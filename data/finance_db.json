@@ -1,0 +1,345 @@
+{
+  "user": {
+    "id": "usr_default",
+    "name": "Alex Rivera",
+    "email": "alex.rivera@example.com",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "monthlyIncomeTarget": 7000,
+    "savingsRateTarget": 25,
+    "occupation": "Senior Product Designer",
+    "riskTolerance": "moderate"
+  },
+  "incomes": [
+    {
+      "id": "inc_1",
+      "userId": "usr_default",
+      "source": "Primary Tech Salary",
+      "amount": 5400,
+      "category": "Salary",
+      "frequency": "monthly",
+      "date": "2026-09-01",
+      "notes": "Direct deposit post-tax"
+    },
+    {
+      "id": "inc_2",
+      "userId": "usr_default",
+      "source": "UI/UX Client Consulting",
+      "amount": 1450,
+      "category": "Freelancing",
+      "frequency": "monthly",
+      "date": "2026-09-12",
+      "notes": "Contract retainer for design system sprint"
+    },
+    {
+      "id": "inc_3",
+      "userId": "usr_default",
+      "source": "Index Fund Dividend",
+      "amount": 180,
+      "category": "Investments",
+      "frequency": "monthly",
+      "date": "2026-09-18",
+      "notes": "Quarterly dividend tranche"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "exp_1",
+      "userId": "usr_default",
+      "description": "Apartment Rent & Parking",
+      "amount": 1950,
+      "category": "Housing",
+      "date": "2026-09-02",
+      "paymentMethod": "Bank Transfer",
+      "recurring": true
+    },
+    {
+      "id": "exp_2",
+      "userId": "usr_default",
+      "description": "Whole Foods Market Weekly Stock",
+      "amount": 164.5,
+      "category": "Food & Groceries",
+      "date": "2026-09-04",
+      "paymentMethod": "Credit Card",
+      "recurring": false
+    },
+    {
+      "id": "exp_3",
+      "userId": "usr_default",
+      "description": "Trader Joe’s Pantry Restock",
+      "amount": 112.3,
+      "category": "Food & Groceries",
+      "date": "2026-09-11",
+      "paymentMethod": "Credit Card",
+      "recurring": false
+    },
+    {
+      "id": "exp_4",
+      "userId": "usr_default",
+      "description": "Organic Valley Market",
+      "amount": 98.7,
+      "category": "Food & Groceries",
+      "date": "2026-09-21",
+      "paymentMethod": "Debit Card",
+      "recurring": false
+    },
+    {
+      "id": "exp_5",
+      "userId": "usr_default",
+      "description": "Electricity & Gas Utility Bill",
+      "amount": 142.1,
+      "category": "Utilities",
+      "date": "2026-09-08",
+      "paymentMethod": "Bank Transfer",
+      "recurring": true
+    },
+    {
+      "id": "exp_6",
+      "userId": "usr_default",
+      "description": "Gigabit Fiber Internet",
+      "amount": 75,
+      "category": "Utilities",
+      "date": "2026-09-10",
+      "paymentMethod": "Credit Card",
+      "recurring": true
+    },
+    {
+      "id": "exp_7",
+      "userId": "usr_default",
+      "description": "Bistro Dinner with Team",
+      "amount": 138,
+      "category": "Dining & Coffee",
+      "date": "2026-09-06",
+      "paymentMethod": "Credit Card",
+      "recurring": false
+    },
+    {
+      "id": "exp_8",
+      "userId": "usr_default",
+      "description": "Artisan Coffee Roasters (Batch Beans & Drinks)",
+      "amount": 64.5,
+      "category": "Dining & Coffee",
+      "date": "2026-09-14",
+      "paymentMethod": "Credit Card",
+      "recurring": false
+    },
+    {
+      "id": "exp_9",
+      "userId": "usr_default",
+      "description": "Weekend Sushi Lounge",
+      "amount": 145.2,
+      "category": "Dining & Coffee",
+      "date": "2026-09-22",
+      "paymentMethod": "Credit Card",
+      "recurring": false
+    },
+    {
+      "id": "exp_10",
+      "userId": "usr_default",
+      "description": "Metro Pass Monthly Transit",
+      "amount": 125,
+      "category": "Transportation",
+      "date": "2026-09-03",
+      "paymentMethod": "Debit Card",
+      "recurring": true
+    },
+    {
+      "id": "exp_11",
+      "userId": "usr_default",
+      "description": "Rideshare to Airport & Downtown",
+      "amount": 74,
+      "category": "Transportation",
+      "date": "2026-09-17",
+      "paymentMethod": "Credit Card",
+      "recurring": false
+    },
+    {
+      "id": "exp_12",
+      "userId": "usr_default",
+      "description": "Equinox Gym & Wellness Club",
+      "amount": 160,
+      "category": "Health & Fitness",
+      "date": "2026-09-05",
+      "paymentMethod": "Credit Card",
+      "recurring": true
+    },
+    {
+      "id": "exp_13",
+      "userId": "usr_default",
+      "description": "Cloud Services & Spotify & Netflix bundle",
+      "amount": 82.5,
+      "category": "Subscriptions",
+      "date": "2026-09-09",
+      "paymentMethod": "Credit Card",
+      "recurring": true
+    },
+    {
+      "id": "exp_14",
+      "userId": "usr_default",
+      "description": "Ergonomic Desk Accessories",
+      "amount": 185,
+      "category": "Shopping",
+      "date": "2026-09-16",
+      "paymentMethod": "Credit Card",
+      "recurring": false
+    },
+    {
+      "id": "exp_15",
+      "userId": "usr_default",
+      "description": "Concert & Cinema Tickets",
+      "amount": 95,
+      "category": "Entertainment",
+      "date": "2026-09-20",
+      "paymentMethod": "Credit Card",
+      "recurring": false
+    }
+  ],
+  "budgets": [
+    {
+      "id": "bgt_1",
+      "userId": "usr_default",
+      "category": "Housing",
+      "monthlyLimit": 2100,
+      "alertThreshold": 90,
+      "month": "2026-09"
+    },
+    {
+      "id": "bgt_2",
+      "userId": "usr_default",
+      "category": "Food & Groceries",
+      "monthlyLimit": 650,
+      "alertThreshold": 85,
+      "month": "2026-09"
+    },
+    {
+      "id": "bgt_3",
+      "userId": "usr_default",
+      "category": "Dining & Coffee",
+      "monthlyLimit": 400,
+      "alertThreshold": 80,
+      "month": "2026-09"
+    },
+    {
+      "id": "bgt_4",
+      "userId": "usr_default",
+      "category": "Transportation",
+      "monthlyLimit": 320,
+      "alertThreshold": 85,
+      "month": "2026-09"
+    },
+    {
+      "id": "bgt_5",
+      "userId": "usr_default",
+      "category": "Utilities",
+      "monthlyLimit": 280,
+      "alertThreshold": 90,
+      "month": "2026-09"
+    },
+    {
+      "id": "bgt_6",
+      "userId": "usr_default",
+      "category": "Entertainment",
+      "monthlyLimit": 250,
+      "alertThreshold": 80,
+      "month": "2026-09"
+    },
+    {
+      "id": "bgt_7",
+      "userId": "usr_default",
+      "category": "Health & Fitness",
+      "monthlyLimit": 180,
+      "alertThreshold": 85,
+      "month": "2026-09"
+    },
+    {
+      "id": "bgt_8",
+      "userId": "usr_default",
+      "category": "Shopping",
+      "monthlyLimit": 300,
+      "alertThreshold": 75,
+      "month": "2026-09"
+    },
+    {
+      "id": "bgt_9",
+      "userId": "usr_default",
+      "category": "Subscriptions",
+      "monthlyLimit": 120,
+      "alertThreshold": 90,
+      "month": "2026-09"
+    }
+  ],
+  "savings": [
+    {
+      "id": "svg_1",
+      "userId": "usr_default",
+      "title": "6-Month Emergency Reserve",
+      "targetAmount": 18000,
+      "currentAmount": 12500,
+      "targetDate": "2026-12-31",
+      "category": "Emergency Fund",
+      "icon": "ShieldCheck",
+      "contributions": [
+        {
+          "id": "sc_1",
+          "amount": 1000,
+          "date": "2026-07-01",
+          "note": "Initial deposit"
+        },
+        {
+          "id": "sc_2",
+          "amount": 800,
+          "date": "2026-08-01",
+          "note": "Monthly surplus"
+        },
+        {
+          "id": "sc_3",
+          "amount": 1200,
+          "date": "2026-09-05",
+          "note": "September allocation"
+        }
+      ]
+    },
+    {
+      "id": "svg_2",
+      "userId": "usr_default",
+      "title": "Alps Winter Retreat",
+      "targetAmount": 3800,
+      "currentAmount": 2450,
+      "targetDate": "2026-11-20",
+      "category": "Vacation",
+      "icon": "Plane",
+      "contributions": [
+        {
+          "id": "sc_4",
+          "amount": 600,
+          "date": "2026-08-15",
+          "note": "Flight savings"
+        },
+        {
+          "id": "sc_5",
+          "amount": 500,
+          "date": "2026-09-12",
+          "note": "Consulting bonus transfer"
+        }
+      ]
+    },
+    {
+      "id": "svg_3",
+      "userId": "usr_default",
+      "title": "Index Fund Investment Tranche",
+      "targetAmount": 10000,
+      "currentAmount": 6200,
+      "targetDate": "2027-03-31",
+      "category": "Investment",
+      "icon": "TrendingUp",
+      "contributions": [
+        {
+          "id": "sc_6",
+          "amount": 750,
+          "date": "2026-09-15",
+          "note": "Dollar cost averaging"
+        }
+      ]
+    }
+  ]
+}

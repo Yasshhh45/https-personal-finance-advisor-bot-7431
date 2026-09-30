@@ -1,0 +1,7 @@
+{
+  "name": "Personal Finance Advisor Bot",
+  "description": "An AI-powered personal finance management platform and intelligent financial advisor bot by Yashraj Patil featuring smart budgeting, expense tracking, savings planning, and spending analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
